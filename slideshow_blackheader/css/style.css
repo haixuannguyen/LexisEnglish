@@ -1,0 +1,422 @@
+/*body style*/
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    overflow-x: hidden;
+    line-height: 1.42857;
+    background-color: #ffffff;
+}
+
+/* For header*/
+#header-container {
+    background-color: #333;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+#header-container .navbar {
+    margin-bottom: 0;
+}
+
+#header-container .row > div {
+    height: 61px;
+}
+
+#header-container .navbar .nav {
+    margin-top: 10px;
+}
+
+#header-container .navbar-header .navbar-brand {
+    padding: 5px 0 0 75px;
+    font-size: 42px;
+    color: #ff8000;
+    line-height: 16px;
+    font-weight: 900;
+    margin-top: 12px;
+    height: 61px;
+    vertical-align: bottom;
+}
+
+#header-container .navbar-header .navbar-brand > img {
+    position: absolute;
+    display: block;
+    vertical-align: middle;
+    left: 0;
+    top: 0;
+}
+
+#header-container .navbar-header .navbar-brand > span {
+    display: block;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #999;
+    padding-top: 12px;
+}
+
+#header-container .navbar-nav li a {
+    color: #999;
+}
+
+.divider-vertical {
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 9px;
+    margin-right: 9px;
+    border-right: 1px solid #999;
+}
+
+.caret {
+    color: #999999;
+}
+
+
+/* For the slide show*/
+
+#slideshow-container {
+    height: 100%;
+    position: relative;
+}
+
+#myCarousel {
+    height: 100%;
+}
+
+#myCarousel .item,
+#myCarousel .active {
+    height: 100%;
+}
+
+#myCarousel .carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#myCarousel .carousel-caption {
+    text-align: right;
+    padding-bottom: 50px;
+    font-size: 28px;
+}
+
+#myCarousel .carousel-caption h2 {
+    color: #fff;
+    padding: 15px;
+    background-color: #ff8000;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#myCarousel .carousel-indicators {
+    text-align: right;
+}
+
+#myCarousel .carousel-indicators .active {
+    background-color: #ff8000;
+    width: 13px;
+    height: 13px;
+    margin: 1px;
+}
+
+#myCarousel .carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border: 1px solid #fff;
+    border-radius: 13px;
+}
+
+#main-menu {
+    position: absolute;
+    top: 0;
+    right:0;
+    min-height: 60px;
+    width: 100%;
+    z-index: 21;
+}
+
+#main-menu .navbar-nav {
+    margin-top: 0px;
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+}
+
+#main-menu .navbar-nav li a {
+    color: #333;
+}
+
+.navbar-nav  li > a {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#main-menu .nav  li > a:hover,
+#main-menu .nav  li > a:focus,
+#main-menu .nav li.active a,
+#header-container .nav  li > a:hover,
+#header-container .nav  li > a:focus,
+#header-container .nav li.active a{
+    background-color: transparent;
+    color: #ff8000;
+    font-weight: 900;
+}
+
+
+#map{
+    position: absolute;
+    top: 0;
+    left: 30%;
+    max-width: 500px;
+    min-width: 200px;
+    height: 100%;
+    z-index: 20;
+}
+
+.row-space {
+    height: 50px;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hightlight {
+    color: #ff8000;
+}
+
+#course-container {
+    margin-top: 80px;
+}
+
+
+#course-slideshow {
+    min-height: 500px;
+    position: relative;
+}
+
+.content-slider li {
+    background-color: #ed3020;
+    text-align: center;
+    color: #FFF;
+    height: 100%;
+}
+
+#course-slideshow .course-container {
+    position: relative;
+}
+
+#course-slideshow .course-container .course-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#course-slideshow .course-container .course-title-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 128, 0, 0.5);
+}
+
+#course-slideshow .course-container .course-title-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 128, 0, 0.5);
+}
+
+#course-slideshow .course-container .course-title-top h1 {
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+}
+
+#activity-container {
+    height: 600px;
+}
+
+#activity-container > div {
+    height: 100%;
+}
+
+#study-activity,
+#work-activity,
+#live-activity {
+    height: 100%;
+    position: relative;
+}
+
+#study-activity > div.bg-gallery,
+#work-activity > div.bg-gallery ,
+#live-activity > div.bg-gallery {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.bg-gallery > .lSSlideOuter > .lSSlideWrapper > .lightSlider > .lslide {
+    height: 600px;
+}
+
+.activity-intro {
+    position: absolute;
+    left: 0;
+    top: 75%;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 128, 0, 0.5);
+    z-index: 101;
+
+    color: #fff;
+    font-size: 18px;
+    padding: 8px;
+}
+
+.bg-gallery ul {
+    height: 600px;
+}
+
+
+.bg-gallery .content-slider li div {
+    width: 100%;
+    height: 100%;
+}
+
+#study-slider .study-1 {
+    background-image: url('../images/study-1.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#study-slider .study-2 {
+    background-image: url('../images/study-2.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#live-slider .live-1 {
+    background-image: url('../images/live-1.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#live-slider .live-2 {
+    background-image: url('../images/live-2.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#live-slider .live-3 {
+    background-image: url('../images/live-3.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#live-slider .live-4 {
+    background-image: url('../images/live-4.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#work-slider .work-1 {
+    background-image: url('../images/work-1.jpg');
+    background-position: center right;
+    background-size: cover;
+}
+
+#student-container {
+    height: 400px;
+    background-color: #999999;
+}
+
+
+
+.contact-container {
+    background: #ff8000;
+    height: 300px;
+}
+
+.course-1 {
+    background-image: url("../images/course-1.jpg");
+}
+
+.course-2 {
+    background-image: url("../images/course-2.jpg");
+}
+
+
+footer {
+    background: #333333;
+    height: 500px;
+}
+
+
+
+/* Apply Responsive*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    #header-container .navbar-header .navbar-brand {
+        font-size: 32px;
+        line-height: 14px;
+    }
+
+    #header-container .navbar-header .navbar-brand > span {
+        font-size: 18px;
+        line-height: 14px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    #header-container .navbar-header .navbar-brand {
+        font-size: 26px;
+        line-height: 14px;
+    }
+
+    #header-container .navbar-header .navbar-brand > span {
+        font-size: 16px;
+        line-height: 12px;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
