@@ -244,26 +244,18 @@ body {
     bottom: 0;
 }
 
-#course-slideshow .course-container .course-title-top {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(255, 128, 0, 0.5);
+.course-name {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 66px;
+    text-align: justify;
+    padding-left: 20px;
 }
 
-#course-slideshow .course-container .course-title-bottom {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(255, 128, 0, 0.5);
-}
-
-#course-slideshow .course-container .course-title-top h1 {
-    width: 100%;
-    text-align: center;
-    color: #FFF;
+.course-active {
+    background-color: #FFB264;
+    color: #fff;
+    font-weight: 600;
 }
 
 #activity-container {
@@ -302,7 +294,7 @@ body {
     top: 75%;
     right: 0;
     bottom: 0;
-    background-color: rgba(255, 128, 0, 0.5);
+    background-color: rgba(51, 51, 51, 0.5);
     z-index: 101;
 
     color: #fff;

@@ -18,7 +18,7 @@ $(document).ready(function () {
     $("#course-slideshow").lightSlider({
         loop:true,
         keyPress:true,
-        item: 2,
+        item: 1,
         pager: false
     });
     
