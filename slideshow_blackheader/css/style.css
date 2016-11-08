@@ -199,6 +199,16 @@ body {
     font-weight: 900;
     text-align: center;
     margin-bottom: 40px;
+    color: #333333;
+}
+
+.bordered {
+    border: 2px solid #ff8000;
+    background-color: rgba(255, 128, 0, 0.8);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
 }
 
 .hightlight {
@@ -350,6 +360,19 @@ body {
     background-image: url('../images/work-1.jpg');
     background-position: center right;
     background-size: cover;
+}
+
+
+.read-more {
+    display: block;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.read-more a {
+    text-decoration: underline;
+    color: #fff;
 }
 
 #student-container {
